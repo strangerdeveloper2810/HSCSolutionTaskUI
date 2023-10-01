@@ -1,0 +1,342 @@
+{
+  "id": "1",
+  "templateCode": "aaaa",
+  "templateName": "aaaa",
+  "applyChannel": "ALL",
+  "groupPermissions": [
+    {
+      "groupPermissionCode": "CASH",
+      "groupPermissionName": "Tiền ",
+      "permissions": [
+        {
+          "activeChannelCode": "COUNTER",
+          "activeChannelName": "Tại quầy",
+          "permissionCode": "EXECUTE_ALLOWDAYTRADING",
+          "permissionName": "Cho phép day-trading",
+          "editField": {
+            "isEditField": true,
+            "value": false
+          }
+        },
+        {
+          "activeChannelCode": "WEBSITE",
+          "activeChannelName": "Trực tuyến",
+          "permissionCode": "EXECUTE_ALLOWDAYTRADING",
+          "permissionName": "Cho phép day-trading",
+          "editField": {
+            "isEditField": true,
+            "value": false
+          }
+        },
+        {
+          "activeChannelCode": "COUNTER",
+          "activeChannelName": "Tại quầy",
+          "permissionCode": "EXECUTE_CASHDEPOSIT",
+          "permissionName": "Nộp tiền",
+          "editField": {
+            "isEditField": true,
+            "value": true
+          }
+        },
+        {
+          "activeChannelCode": "WEBSITE",
+          "activeChannelName": "Trực tuyến",
+          "permissionCode": "EXECUTE_CASHDEPOSIT",
+          "permissionName": "Nộp tiền",
+          "editField": {
+            "isEditField": true,
+            "value": true
+          }
+        },
+        {
+          "activeChannelCode": "COUNTER",
+          "activeChannelName": "Tại quầy",
+          "permissionCode": "EXECUTE_CASHWITHDRAWAL",
+          "permissionName": "Rút tiền",
+          "editField": {
+            "isEditField": true,
+            "value": true
+          }
+        },
+        {
+          "activeChannelCode": "WEBSITE",
+          "activeChannelName": "Trực tuyến",
+          "permissionCode": "EXECUTE_CASHWITHDRAWAL",
+          "permissionName": "Rút tiền",
+          "editField": {
+            "isEditField": true,
+            "value": true
+          }
+        },
+        {
+          "activeChannelCode": null,
+          "activeChannelName": "",
+          "permissionCode": "EXECUTE_FORCESELL",
+          "permissionName": "Bán giải chấp",
+          "editField": {
+            "isEditField": true,
+            "value": true
+          }
+        },
+        {
+          "activeChannelCode": "COUNTER",
+          "activeChannelName": "Tại quầy",
+          "permissionCode": "EXECUTE_INTERNALTRANSFER",
+          "permissionName": "Chuyển tiền nội bộ",
+          "editField": {
+            "isEditField": true,
+            "value": true
+          }
+        },
+        {
+          "activeChannelCode": "WEBSITE",
+          "activeChannelName": "Trực tuyến",
+          "permissionCode": "EXECUTE_INTERNALTRANSFER",
+          "permissionName": "Chuyển tiền nội bộ",
+          "editField": {
+            "isEditField": true,
+            "value": true
+          }
+        },
+        {
+          "activeChannelCode": "COUNTER",
+          "activeChannelName": "Tại quầy",
+          "permissionCode": "EXECUTE_RIGHTSUBSCRIPTION",
+          "permissionName": "Thực hiện quyền",
+          "editField": {
+            "isEditField": true,
+            "value": true
+          }
+        },
+        {
+          "activeChannelCode": "WEBSITE",
+          "activeChannelName": "Trực tuyến",
+          "permissionCode": "EXECUTE_RIGHTSUBSCRIPTION",
+          "permissionName": "Thực hiện quyền",
+          "editField": {
+            "isEditField": true,
+            "value": true
+          }
+        }
+      ]
+    },
+    {
+      "groupPermissionCode": "EXCEPT",
+      "groupPermissionName": "Quyền hạn chế",
+      "permissions": [
+        {
+          "activeChannelCode": "COUNTER",
+          "activeChannelName": "Tại quầy",
+          "permissionCode": "FORBID_NOINSTRUMENTDEPOSIT",
+          "permissionName": "Không được phép lưu ký chứng khoán",
+          "editField": {
+            "isEditField": true,
+            "value": false
+          }
+        },
+        {
+          "activeChannelCode": "WEBSITE",
+          "activeChannelName": "Trực tuyến",
+          "permissionCode": "FORBID_NOINSTRUMENTDEPOSIT",
+          "permissionName": "Không được phép lưu ký chứng khoán",
+          "editField": {
+            "isEditField": true,
+            "value": false
+          }
+        },
+        {
+          "activeChannelCode": "COUNTER",
+          "activeChannelName": "Tại quầy",
+          "permissionCode": "FORBID_NOINSTRUMENTWITHDRAWAL",
+          "permissionName": "Không được phép rút/chuyển chứng khoán",
+          "editField": {
+            "isEditField": true,
+            "value": false
+          }
+        },
+        {
+          "activeChannelCode": "WEBSITE",
+          "activeChannelName": "Trực tuyến",
+          "permissionCode": "FORBID_NOINSTRUMENTWITHDRAWAL",
+          "permissionName": "Không được phép rút/chuyển chứng khoán",
+          "editField": {
+            "isEditField": true,
+            "value": false
+          }
+        },
+        {
+          "activeChannelCode": "COUNTER",
+          "activeChannelName": "Tại quầy",
+          "permissionCode": "FORBID_NOINTERNETTRADE",
+          "permissionName": "Không giao dịch trực tuyến",
+          "editField": {
+            "isEditField": true,
+            "value": false
+          }
+        },
+        {
+          "activeChannelCode": "WEBSITE",
+          "activeChannelName": "Trực tuyến",
+          "permissionCode": "FORBID_NOINTERNETTRADE",
+          "permissionName": "Không giao dịch trực tuyến",
+          "editField": {
+            "isEditField": true,
+            "value": false
+          }
+        }
+      ]
+    },
+    {
+      "groupPermissionCode": "TRADING",
+      "groupPermissionName": "Giao dịch",
+      "permissions": [
+        {
+          "activeChannelCode": "COUNTER",
+          "activeChannelName": "Tại quầy",
+          "permissionCode": "EXECUTE_BUYONLY",
+          "permissionName": "Chỉ được mua",
+          "editField": {
+            "isEditField": true,
+            "value": false
+          }
+        },
+        {
+          "activeChannelCode": "WEBSITE",
+          "activeChannelName": "Trực tuyến",
+          "permissionCode": "EXECUTE_BUYONLY",
+          "permissionName": "Chỉ được mua",
+          "editField": {
+            "isEditField": true,
+            "value": false
+          }
+        },
+        {
+          "activeChannelCode": "COUNTER",
+          "activeChannelName": "Tại quầy",
+          "permissionCode": "EXECUTE_SELLONLY",
+          "permissionName": "Chỉ được bán",
+          "editField": {
+            "isEditField": true,
+            "value": false
+          }
+        },
+        {
+          "activeChannelCode": "WEBSITE",
+          "activeChannelName": "Trực tuyến",
+          "permissionCode": "EXECUTE_SELLONLY",
+          "permissionName": "Chỉ được bán",
+          "editField": {
+            "isEditField": true,
+            "value": false
+          }
+        },
+        {
+          "activeChannelCode": "COUNTER",
+          "activeChannelName": "Tại quầy",
+          "permissionCode": "EXECUTE_TRADING",
+          "permissionName": "Quyền giao dịch",
+          "editField": {
+            "isEditField": true,
+            "value": true
+          }
+        },
+        {
+          "activeChannelCode": "WEBSITE",
+          "activeChannelName": "Trực tuyến",
+          "permissionCode": "EXECUTE_TRADING",
+          "permissionName": "Quyền giao dịch",
+          "editField": {
+            "isEditField": true,
+            "value": true
+          }
+        }
+      ]
+    },
+    {
+      "groupPermissionCode": "NORMAL",
+      "groupPermissionName": "Quyền cơ bản",
+      "permissions": [
+        {
+          "activeChannelCode": "COUNTER",
+          "activeChannelName": "Tại quầy",
+          "permissionCode": "VIEW_ACCOUNTBALANCE",
+          "permissionName": "Xem số dư tài khoản",
+          "editField": {
+            "isEditField": false,
+            "value": true
+          }
+        },
+        {
+          "activeChannelCode": "WEBSITE",
+          "activeChannelName": "Trực tuyến",
+          "permissionCode": "VIEW_ACCOUNTBALANCE",
+          "permissionName": "Xem số dư tài khoản",
+          "editField": {
+            "isEditField": false,
+            "value": true
+          }
+        },
+        {
+          "activeChannelCode": "COUNTER",
+          "activeChannelName": "Tại quầy",
+          "permissionCode": "VIEW_MARGIN",
+          "permissionName": "Xem Trạng thái ký quỹ",
+          "editField": {
+            "isEditField": false,
+            "value": true
+          }
+        },
+        {
+          "activeChannelCode": "WEBSITE",
+          "activeChannelName": "Trực tuyến",
+          "permissionCode": "VIEW_MARGIN",
+          "permissionName": "Xem Trạng thái ký quỹ",
+          "editField": {
+            "isEditField": false,
+            "value": true
+          }
+        },
+        {
+          "activeChannelCode": "COUNTER",
+          "activeChannelName": "Tại quầy",
+          "permissionCode": "VIEW_PROFITANDLOSS",
+          "permissionName": "Xem lãi/lỗ danh mục",
+          "editField": {
+            "isEditField": false,
+            "value": true
+          }
+        },
+        {
+          "activeChannelCode": "WEBSITE",
+          "activeChannelName": "Trực tuyến",
+          "permissionCode": "VIEW_PROFITANDLOSS",
+          "permissionName": "Xem lãi/lỗ danh mục",
+          "editField": {
+            "isEditField": false,
+            "value": true
+          }
+        },
+        {
+          "activeChannelCode": "COUNTER",
+          "activeChannelName": "Tại quầy",
+          "permissionCode": "VIEW_TRANSACTIONSTATEMENT",
+          "permissionName": "Xem sao kê giao dịch",
+          "editField": {
+            "isEditField": false,
+            "value": true
+          }
+        },
+        {
+          "activeChannelCode": "WEBSITE",
+          "activeChannelName": "Trực tuyến",
+          "permissionCode": "VIEW_TRANSACTIONSTATEMENT",
+          "permissionName": "Xem sao kê giao dịch",
+          "editField": {
+            "isEditField": false,
+            "value": true
+          }
+        }
+      ]
+    }
+  ]
+}
